@@ -123,8 +123,12 @@ if(isset($_GET['c']) && $_GET['c'] == 'produto'){
 ?>
 
 <br>
-<a href="/?c=produto&t=inserir">Inserir Produto</a>
-<a href="/?c=fornecedor&t=inserir">Inserir Fornecedor</a>
+<h3>Produtos</h3>
+<a href="/?c=produto&t=inserir">Inserir </a>
+<a href="/?c=produto&t=listar">Listar </a>
+<h3>Fornecedores</h3>
+<a href="/?c=fornecedor&t=inserir">Inserir</a>
+<a href="/?c=fornecedor&t=listar">Listar</a>
 
 
 
